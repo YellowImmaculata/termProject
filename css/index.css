@@ -1,24 +1,23 @@
-/* CSS styles for term project by Emma Duerstock */
 body {
-  background-color: #F0F3BD;
+  background-color: #B5F8FE;
   margin: 0;
 }
-#top {
-  background-color: #00A896;
-
+img {
+  border: 0.15rem solid #000000;
 }
 h1 {
   text-align: center;
-  color: #04415A;
+  color: #1B998B;
+  margin-top: 0;
+  font-size: 3rem;
 }
-.redtext {
-  color: #00A896;
+h2 {
+  color: #1B998B;
 }
-blockquote {
-  margin-left: 5rem;
-  border-left: 1rem solid #028090;
+p {
+  color: #201335;
 }
-blockquote p {
-  margin-left: 1rem; }
-cite {
-  margin-left: 1rem; }
+a {
+  border-left: 2rem solid #C04CFD;
+  color: #F6828C;
+}
