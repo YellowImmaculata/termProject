@@ -14,12 +14,12 @@ Be sure that your code is not within this comment section.
 */
 
 //===>Your code goes on the next line:
-var p = document.getValuebyId('quote');
+var quote = document.getElementbyId('p');
 
-where var = let,
-p = "quote",
-getValuebyId = html,
-quote = p
+where var = declaration keyword,
+quote = variable name,
+getElementbyId = document method,
+p = value for method
 
 /*
 Step 2. In this step you will add 3 class names from the animate.css library to the variable you stored in step 1.
@@ -27,7 +27,7 @@ This step is a fill-in-the-blank below. I have provided the method details. You 
 */
 
 //===>Your code goes on the next line. Add the variable name to the beginning:
-<p>.classList.add('animate__animated', 'animate__backInRight', 'animate__slower');
+quote.classList.add('animate__animated', 'animate__backInRight', 'animate__slower');
 
 /*
 Step 3: Add console log statement to the end of this script.
