@@ -14,7 +14,7 @@ Be sure that your code is not within this comment section.
 */
 
 //===>Your code goes on the next line:
-var quote = document.getElementbyId('p');
+var quote = document.getElementbyId("p");
 
 where var = declaration keyword,
 quote = variable name,
